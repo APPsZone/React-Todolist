@@ -4,10 +4,6 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="container">
-      <link
-        href="https://fonts.googleapis.com/css2?family=Bungee&family=Special+Elite&display=swap"
-        rel="stylesheet"
-      />
       <div className="frame">
         <section className="header">
           <button className="header-btn main-black-color">Add</button>
@@ -54,6 +50,10 @@ export default function App() {
             <span className="todo-text">React.js Project</span>
           </div>
         </section>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bungee&family=Special+Elite&display=swap"
+          rel="stylesheet"
+        />
       </div>
     </div>
   );

@@ -12,10 +12,18 @@ const Todolist = () => {
     { text: "Learning Styling in React." }
   ]);
 
+  const addToDo = (value) => {
+    const addedTodo = [...todos, { text: value }];
+
+    setTodos(addedTodo);
+  };
+
+  console.log("todos", todos);
+
   return (
     <Paper>
       <Header />
-      <Form />
+      <Form addToDo={addToDo} />
       <Todos todos={todos} />
       <link
         href="https://fonts.googleapis.com/css2?family=Bungee&family=Special+Elite&display=swap"

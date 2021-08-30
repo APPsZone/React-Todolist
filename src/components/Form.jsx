@@ -13,7 +13,6 @@ const Form = ({ addToDo }) => {
     }
 
     addToDo(value);
-    alert(value);
     setValue("");
   };
 

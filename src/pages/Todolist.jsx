@@ -27,7 +27,7 @@ const Todolist = () => {
   return (
     <Paper>
       <Header showAddToggle={showAddToggle} />
-      <Form addToDo={addToDo} />
+      <Form addToDo={addToDo} showAdd={showAdd} />
       <Todos todos={todos} />
       <link
         href="https://fonts.googleapis.com/css2?family=Bungee&family=Special+Elite&display=swap"

@@ -12,6 +12,11 @@ const Form = ({ addToDo, showAdd }) => {
       return;
     }
 
+    if (value.length > 35) {
+      alert("Please insert shorter sentence");
+      setValue("");
+      return;
+    }
     addToDo(value);
     setValue("");
   };

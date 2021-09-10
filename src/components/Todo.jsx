@@ -18,6 +18,6 @@ Todo.propTypes = {
   text: PropTypes.string.isRequired,
   completeTodo: PropTypes.func.isRequired,
   index: PropTypes.number.isRequired,
-  isCompleted: PropTypes.func.isRequired
+  isCompleted: PropTypes.bool.isRequired
 };
 export default Todo;

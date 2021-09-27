@@ -63,7 +63,7 @@ html {
   text-transform: lowercase;
 } */
 
-.add {
+/* .add {
   padding: 16px;
 }
 
@@ -104,16 +104,16 @@ html {
 
 .add-btn.main-black-color:active {
   text-shadow: 1px 1px 2px var(--main-black-color);
-}
+} */
 
-.todos {
+/* .todos {
   display: flex;
   flex-direction: column;
 
   min-height: 500px;
-}
+} */
 
-.todo {
+/* .todo {
   position: relative;
 
   flex: 1 0 auto;
@@ -133,9 +133,9 @@ html {
   height: 40px;
   left: 50%;
   transform: translate(-50%);
-}
+} */
 
-.todo-placeholder-text {
+/* .todo-placeholder-text {
   font-family: "Special Elite", cursive;
   font-size: 24px;
   text-align: center;
@@ -146,4 +146,4 @@ html {
   font-family: "Bungee", sans-serif;
   font-size: 24px;
   color: black;
-}
+} */

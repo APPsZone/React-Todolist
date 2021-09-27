@@ -28,7 +28,7 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, cursive;
 }
 
-.container {
+/* .container {
   width: 600px;
   height: 800px;
   background-color: #f2eecb;
@@ -44,9 +44,9 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+} */
 
-.header {
+/* .header {
   display: flex;
   align-items: flex-start;
 
@@ -54,7 +54,6 @@ html {
 }
 
 .header-title {
-  /* flex: 1; */
   width: 52%;
   text-align: center;
 
@@ -62,7 +61,7 @@ html {
   font-size: 3.6rem;
   font-family: "Special Elite", cursive;
   text-transform: lowercase;
-}
+} */
 
 .add {
   padding: 16px;
